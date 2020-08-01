@@ -1,0 +1,38 @@
+{
+  "name": "nuxt2-drf-front3.0",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cookie": "^0.4.1",
+    "core-js": "^3.6.5",
+    "debug": "^4.1.1",
+    "js-cookie": "^2.2.1",
+    "nuxt": "^2.14.0",
+    "packages": "0.0.8",
+    "vee-validate": "^3.3.7",
+    "whatwg-url": "^8.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.12.0",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
